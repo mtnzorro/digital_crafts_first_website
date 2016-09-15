@@ -1,0 +1,141 @@
+body {
+   background-color:lightgray;
+   margin: 0;
+}
+
+
+
+img {
+  display: block;
+    max-width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+}
+
+h1 {
+  color: #600;
+  text-align: center;
+  font-family: 'Amatic SC', cursive;
+}
+
+p, ul {
+  font-family: 'Amatic SC', cursive;
+}
+
+/* classes */
+.intro {
+  font-family: 'Amatic SC', cursive;
+  font-size: 45px;
+}
+.cruiser, .murphy {
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Amatic SC', cursive;
+}
+.camping {
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+}
+
+ .camping_pics{
+
+  width: 50%;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sum {
+  text-align: center;
+}
+
+.summary{
+  width: 70%;
+  margin-top: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #999;
+  font-size: 35px;
+  font-family: 'Amatic SC', cursive;
+}
+
+.avatar {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+}
+
+.mtn_bike {
+  color: brown;
+}
+
+.interests_pic {
+  width: 50%;
+}
+.interests_div{
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  text-align: center;
+}
+
+.family_pic{
+  width: 40%;
+}
+
+.contact_icon{
+    display: block;
+    text-align: center;
+    width: 200px;
+    margin: 2em;
+    float: left;
+}
+
+.intro {
+  color: white;
+  background-color: #406ABB;
+}
+
+.cruiser_pic {
+
+  width: 50%;
+}
+
+/* top-nav styling */
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+/* Float the list items side by side */
+ul.topnav li {
+    float: left;
+  }
+
+/* Style the links inside the list items */
+ul.topnav li a {
+    display: inline-block;
+    color: #f2f2f2;
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 28px;
+}
+
+/* Change background color of links on hover */
+ul.topnav li a:hover {
+    background-color: #555;
+  }
+
+ul.topnav .icon {
+    display: none;
+  }
